@@ -9,16 +9,15 @@ body{
     
 } 
 .nav-heading{
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: gray;
     margin-right: 2rem;
     margin-top: 0px;
 
+
 }
 .header{
     display: flex;
-   
-   
 }
 
 
@@ -26,6 +25,8 @@ body{
 
 .list-item{
     margin-left: auto;
+
+    
 }
 label{
     font-size: x-large;
@@ -64,6 +65,7 @@ label{
     font-size: xx-large;
     list-style: none;
     display: inline;
+    
    
  
     
@@ -89,13 +91,16 @@ h2{
    font-size: x-large;
    margin-top: 2rem;
    margin-right: 10rem;
-   border-radius: 2rem;
+   border-radius: 2rem;border: none;
+   width: 20rem;
+   background-color: #fb7185;
+   border-radius: 1rem;
   
 
    
 }
 .get-started{
-    color: violet
+    color: beige
 }
 .small-container{
    
