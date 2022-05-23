@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Koulen&family=Oswald:wght@300;500&family=Poppins:wght@300&display=swap');
+
+@import"./alert/alert.css"
+body{
+    background-color: antiquewhite;
+    max-width: 100%;
+    font-family: 'EB Garamond', serif;
+
+    
+} 
+.nav-heading{
+    font-size: 2.5rem;
+    color: gray;
+    margin-right: 2rem;
+    margin-top: 0px;
+
+}
+.header{
+    display: flex;
+   
+   
+}
+
+
+
+
+.list-item{
+    margin-left: auto;
+}
+label{
+    font-size: x-large;
+    color: gray
+
+}
+
+
+
+.flex{
+    display: flex;
+    font-size: x-large;
+  
+    
+}
+.hero{
+    margin: auto;
+    
+    
+    
+}
+
+.banner-heading{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center; 
+    margin: auto;
+    margin-top: 3rem;
+   
+
+    
+}
+.list{
+    margin: 1rem;
+    font-size: xx-large;
+    list-style: none;
+    display: inline;
+   
+ 
+    
+}
+.form{
+    margin-top: 1rem;
+    margin-left: 5rem;
+}
+.nav-links{
+    color: grey;
+
+    
+    text-decoration: none;
+    margin-bottom: 2rem;
+} 
+h2{
+    text-align: center;
+
+}
+
+.buttonstarted{
+    background-color:; 
+   font-size: x-large;
+   margin-top: 2rem;
+   margin-right: 10rem;
+   border-radius: 2rem;
+  
+
+   
+}
+.get-started{
+    color: violet
+}
+.small-container{
+   
+    margin-top: 0rem;
+    margin-right: 10rem;
+    font-size: xx-large;
+    max-width: 50%;
+   
+   
+
+}
+
+
+
+/* ***************responsive************ */
+
+@media only screen and (max-width: 768px)  {
+    /* For mobile phones: */
+    html{
+        font-size: 50%;
+    }
+    .flex{
+        size: 0rem;
+        height: 10vh;
+        width: 100px;
+    }
+    #image{
+      max-width: 50px;
+       
+
+    }
+    .hero{
+        margin-top: 10rem;
+        margin-right: 15rem;
+        max-width: 200px;
+        
+    }
+    .banner-heading{
+        margin-left: 25rem; 
+        
+        
+    }
+    .small-container{
+        max-width: 100px;
+    }
