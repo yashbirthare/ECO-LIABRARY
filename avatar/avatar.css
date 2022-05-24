@@ -13,31 +13,27 @@ body{
 
 .nav-heading{
     font-size: 2.5rem;
-    color: rgb(212, 45, 45);
+    color: gray;
     margin-right: 2rem;
     margin-top: 0px;
-    
 
 }
 
 h1 {
-    color: rgb(212, 45, 45);
+    color: gray;
 }
 h2{
-    color: rgb(212, 45, 45);
+    color: grey;
 
 }
 h3{
-    color: rgb(212, 45, 45);
+    color:  black;
+
 
 }
 
 .header{
- 
-
-    display: flex;
-
-   
+    display: flex; 
    
 }
 
@@ -46,7 +42,7 @@ h3{
 }
 label{
     font-size: x-large;
-    color: rgb(212, 45, 45);
+    color:  ghostwhite;
 
 }
 .list{
@@ -59,7 +55,7 @@ label{
     
 }
 .nav-links{
-    color: rgb(212, 45, 45);
+    color: gray;
 
     
     text-decoration: none;
@@ -88,9 +84,11 @@ label{
 }
 
 .link-items{
-    font-size: 1.5rem;
+    font-size: 1rem;
+    margin-bottom: auto;
+    padding-bottom:  4rem;
     text-decoration: none;
-    color: brown;
+    color: black;
 
     
 }
@@ -126,12 +124,14 @@ p{
 
 /* ****************right side information div************ */
 .information-div{
-    border: 1px solid rgb(224, 38, 38);
-    height: 60vh;
+    border: 1px solid black;
+    height: 65vh;
     width: 15%;
     padding: 1rem;
     position: fixed;
+    text-align: center;
     right: 0px;
+    
 
 
 
@@ -157,7 +157,7 @@ p{
 .arrow-button-1{
     font-size: 2rem;
     left: 0px;
-    color:  rgb(224, 38, 38) ;
+    color: violet;
     text-decoration: none;
 
    
@@ -165,7 +165,7 @@ p{
 .arrow-button-2{
     font-size: 2rem;
     right: 0px;
-    color:  rgb(224, 38, 38) ;
+    color: violet;
     text-decoration: none;
 
 
