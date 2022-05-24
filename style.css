@@ -4,6 +4,7 @@
 
 
 body{
+
     background-color: #fee2e2;
     font-family: 'EB Garamond', serif;
     font-size: large;
@@ -93,11 +94,11 @@ h2{
     background-color:; 
    font-size: x-large;
    margin-top: 2rem;
-   margin-right: 10rem;
-   border-radius: 2rem;border: none;
-   width: 20rem;
+   margin-left: 35rem;
+   border-radius: 0.5rem;border;
+   width: 10rem;
    background-color:#fb7185;
-   border-radius: 1rem;
+   border-radius: 0.5rem;
   
 
    
