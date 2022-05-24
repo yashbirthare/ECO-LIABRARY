@@ -14,7 +14,7 @@ body{
 
 .nav-heading{
     font-size: 2.5rem;
-    color: violet;
+    color: gray;
     margin-right: 2rem;
     margin-top: 0px;
     
@@ -22,14 +22,14 @@ body{
 }
 
 h1 {
-    color: violet;
+    color: gray;
 }
 h2{
-    color: violet;
+    color: grey;
 
 }
 h3{
-    color: violet;
+    color:  black;
 
 }
 p{
@@ -45,10 +45,11 @@ p{
 /* ****************right side information div************ */
 .information-div{
     border: 1px solid black;
-    height: 50vh;
+    height: 65vh;
     width: 15%;
     padding: 1rem;
     position: fixed;
+    text-align: center;
     right: 0px;
     
 
