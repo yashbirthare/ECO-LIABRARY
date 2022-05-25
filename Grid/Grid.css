@@ -81,13 +81,14 @@ p{
     margin-top: 0.5rem;
    margin-bottom: 1vh;
    border-radius: 0.5rem;
-   width: 12rem;
+
+
+   
    
   
    
 }
 .arrow-button-2{
-    background-color: violet;
     padding-top: 0.3rem;
     padding-bottom: 0.3rem;
     padding-right: 1rem;
@@ -95,7 +96,7 @@ p{
     margin-top: 0.5rem;
     margin-bottom: 1vh;
     border-radius: 0.5rem;
-    width: 12rem;
+    
 }
 
 
