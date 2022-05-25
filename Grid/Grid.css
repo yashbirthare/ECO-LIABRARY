@@ -5,7 +5,7 @@
 /* *************new********** */
 
 body{
-    background-color: #fee2e2;
+    background-color: #fae5cdf8;
     font-family: 'EB Garamond', serif;
     font-size: large;
 
@@ -13,12 +13,15 @@ body{
 }
 
 .nav-heading{
-    font-size: 0.5rem;
+    font-size: 2rem;
     color: gray;
     margin-right: 2rem;
+    margin-top: 0.5px;
 
-    
+}
 
+.header{
+    display: flex;
 }
 
 h1 {
@@ -33,7 +36,7 @@ h3{
 
 }
 p{
-    font-size: x-large;
+    font-size: medium;
 }
 
 
@@ -71,29 +74,28 @@ p{
 /* ***************arrow button************ */
 
 .arrow-button-1{
-    font-size: 2rem;
-    left: 0px;
-    color: violet;
-    text-decoration: none;
-
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-top: 0.5rem;
+   margin-bottom: 1vh;
+   border-radius: 0.5rem;
+   width: 12rem;
+   
+  
    
 }
 .arrow-button-2{
-    font-size: 2rem;
-    right: 0px;
-    color:  violet ;
-    text-decoration: none;
-
-
-   
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1vh;
+    border-radius: 0.5rem;
+    width: 12rem;
 }
-.arrow-button-container{
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-
-  
-}
-
 
 
 
@@ -103,7 +105,7 @@ p{
 
 .nav-heading{
     font-size: 2rem;
-    padding-inline: 3rem;
+    padding-inline: 2rem;
     color: grey;
     margin-right: 2rem;
     margin-top: 0px;
@@ -125,7 +127,7 @@ p{
 }
 label{
     font-size: x-large;
-    color: ghostwhite;
+    color: gray;
 
 }
 .list{
@@ -203,15 +205,14 @@ margin-top: 0%;
 
 
 .grid-item-two{
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr;
 }
 
 .grid1-items{
-    border: 1px solid black;
-    font-size: x-large;
-    padding: 1rem;
-
+    border: 0.3px solid black;
+    font-size: medium;
+    padding: 0.5rem;
 
 }
 
@@ -228,9 +229,10 @@ margin-top: 0%;
 }
 
 .grid2-items{
-    border: 1px solid black;
-    font-size: x-large;
-    padding: 1rem;
+ border: 0.3px solid black;
+    font-size: medium;
+    padding: 0.5rem;
+
 
 
 }
@@ -250,10 +252,10 @@ margin-top: 0%;
 }
 
 .grid3-items{
-    border: 1px solid black;
-    font-size: x-large;
-    padding: 1rem;
-
+    border: 0.3px solid black;
+    font-size: medium;
+    padding: 0.5rem;
+}
 
 /* ***************responsive************ */
 
@@ -290,4 +292,4 @@ margin-top: 0%;
 .information-div{
     visibility: hidden;
 }
-}}
+}
