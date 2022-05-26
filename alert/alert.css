@@ -57,7 +57,7 @@ label{
     
 }
 .nav-links{
-    color: rgb(212, 45, 45);
+    color: gray;
 
     
     text-decoration: none;
@@ -88,9 +88,11 @@ label{
 }
 
 .link-items{
-    font-size: 1.5rem;
+    font-size: 1rem;
+    margin-bottom: auto;
+    padding-bottom:  4rem;
     text-decoration: none;
-    color: brown;
+    color: black;
 
     
 }
@@ -143,25 +145,25 @@ p{
 /* ****************alert1 box div************ */
 #error-alert-button{
     font-size: x-large;
-    color: rgb(212, 45, 45);
+    color: violet;
 
 
 }
 #warning-alert-button{
     font-size: x-large;
-    color: rgb(212, 45, 45);
+    color: violet;
 
 
 }
 #info-alert-button{
     font-size: x-large;
-    color: rgb(212, 45, 45);
+    color: violet;
 
 
 }
 #success-alert-button{
     font-size: x-large;
-    color: grey;
+    color: violet;
 
 
 }
@@ -179,17 +181,17 @@ p{
 #output1-div{
     font-size: xx-large;
     color: white;
-    background-color: rgb(204, 51, 51);
+    background-color: rgb(248, 11, 11);
 }
 #output2-div{
     font-size: xx-large;
     color: black;
-    background-color: yellow;
+    background-color: rgb(240, 240, 10);
 }
 #output3-div{
     font-size: xx-large;
     color: white;
-    background-color: rgb(50, 50, 226);
+    background-color: rgb(41, 36, 63);
 }
 #output4-div{
     font-size: xx-large;

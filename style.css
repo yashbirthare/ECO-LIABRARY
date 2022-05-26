@@ -4,21 +4,21 @@ body{
     background-color: #e4ec9bf8;
     font-family:  'Merriweather', serif;
     font-size: large;
+    margin: auto;
 }
 
-.nav-heading{
-    font-size: 2rem;
-    color: gray;
-    margin-right: 2rem;
-    margin-top: 0px;
 
-
-}
 .header{
     display: flex;
 }
 
+.nav-heading{
+    font-size: 2rem;
+    color:  rgb(117, 100, 100);
+    margin-right: 2rem;
+    margin-top: 0px;
 
+}
 
 
 .list-item{
@@ -28,7 +28,7 @@ body{
 }
 label{
     font-size: x-large;
-    color: gray
+    color: rgb(117, 100, 100);
 
 }
 
@@ -41,28 +41,39 @@ label{
     
 }
 .hero{
-    max-width: 300px;
+    padding-top: 1vh;
+    max-width: 500px;
     display: black;
     margin: auto;
     text-align: center;
-    
-
 }
+.hero1{
+    padding-top: 1vh;
+    max-width: 500px;
+    display: black;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+
 
 .banner-heading{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center; 
-    margin: auto;
+    margin: 5vh;
     margin-bottom: auto;
    
 
     
 }
 .list{
-    margin: 1rem;
+    margin-left: auto;
     font-size: xx-large;
+    font-family: 'Merriweather', serif;
     list-style: none;
     display: inline;
     
@@ -75,7 +86,7 @@ label{
     margin-left: 5rem;
 }
 .nav-links{
-    color: grey;
+    color: rgb(117, 100, 100);
 
     
     text-decoration: none;
@@ -90,25 +101,27 @@ h2{
     padding-bottom: 0.5rem;
     padding-top: 1vh;
     align-items: left; 
-    margin-bottom: 0.5rem;
-    width: 35rem
-    
+    margin-bottom: 2rem;
+    width: 35rem;
+    font-size: x-large;
 
 }
 
 .buttonstarted{
-   margin-top: 0.5rem;
-   margin-bottom: 1vh;
-   border-radius: 0.5rem;border;
+   padding-top: 1vh;
+   margin-top: 1rem;
+   margin-bottom: 2vh;
+   border-radius: 1.5rem;border;
    width: 12rem;
    background-color:#fb7185;
    border-bottom: auto;
+   font-size:x-large
   
 
    
 }
 .get-started{
-    color: beige
+    color: rgb(254, 254, 249)
 }
 .small-container{
    
@@ -117,10 +130,17 @@ h2{
     font-size: xx-large;
     max-width: 50%;
    
-   
 
 }
 
+
+.yash{ 
+    padding-top: 80vh;
+    padding-left: 48vh;
+    margin: auto;
+    text-align: center;
+
+}
 
 
 /* ***************responsive************ */
@@ -143,7 +163,7 @@ h2{
     .hero{
         margin-top: 10rem;
         margin-right: 15rem;
-        max-width: 200px;
+        max-width: 250px;
         
     }
     .banner-heading{
@@ -153,4 +173,4 @@ h2{
     }
     .small-container{
         max-width: 100px;
-    }
+    }}
