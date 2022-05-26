@@ -47,23 +47,15 @@ label{
     margin: auto;
     text-align: center;
 }
-.hero1{
-    padding-top: 1vh;
-    max-width: 500px;
-    display: black;
-    margin: auto;
-    text-align: center;
-}
-
-
 
 
 
 .banner-heading{
+    padding-right: 5rem;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center; 
+
+    align-items: right; 
     margin: 5vh;
     margin-bottom: auto;
    
@@ -98,10 +90,11 @@ h2{
 }
 
 .heading{
-    padding-bottom: 0.5rem;
+    margin-left: 20vh;
+    text-align: left;
+    padding-bottom: 5rem;
     padding-top: 1vh;
     align-items: left; 
-    margin-bottom: 2rem;
     width: 35rem;
     font-size: x-large;
 
@@ -135,11 +128,8 @@ h2{
 
 
 .yash{ 
-    padding-top: 80vh;
-    padding-left: 48vh;
-    margin: auto;
-    text-align: center;
-
+    padding-top: 70vh;
+    padding-right: 10vh;
 }
 
 
@@ -163,9 +153,9 @@ h2{
     .hero{
         margin-top: 10rem;
         margin-right: 15rem;
-        max-width: 250px;
-        
+        max-width: 250px;  
     }
+   
     .banner-heading{
         margin-left: 25rem; 
         
