@@ -1,16 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Koulen&family=Oswald:wght@300;500&family=Poppins:wght@300&display=swap');
-
-
-
-/* *************new********** */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Oswald:wght@300&display=swap');
 
 body{
-    background-color: #f1d7b9f8;
-    font-family: 'EB Garamond', serif;
+    background-color: #e4ec9bf8;
+    font-family:  'Merriweather', serif;
     font-size: large;
-
- 
 }
+
 
 .nav-heading{
     font-size: 2rem;
@@ -273,7 +268,6 @@ margin-top: 0%;
 
       
       
-        /* top: 4rem; */
       
     }
     .links-div{

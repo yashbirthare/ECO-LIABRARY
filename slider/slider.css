@@ -1,13 +1,10 @@
 
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Koulen&family=Oswald:wght@300;500&family=Poppins:wght@300&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Oswald:wght@300&display=swap');
 
 body{
-    background-color: antiquewhite;
-    font-family: 'EB Garamond', serif;
-
- 
+    background-color: #e4ec9bf8;
+    font-family:  'Merriweather', serif;
+    font-size: large;
 }
 
 .nav-heading{

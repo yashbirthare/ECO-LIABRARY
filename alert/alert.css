@@ -1,34 +1,33 @@
-
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Koulen&family=Oswald:wght@300;500&family=Poppins:wght@300&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Oswald:wght@300&display=swap');
 
 body{
-    background-color: #fae5cdf8;
-    font-family: 'EB Garamond', serif;
+    background-color: #e4ec9bf8;
+    font-family:  'Merriweather', serif;
     font-size: large;
+}
+
 
     
  
-}
 .nav-heading{
-    font-size: 2.5rem;
-    color: rgb(212, 45, 45);
+    font-size: 2rem;
+    color: gray;
     margin-right: 2rem;
-    margin-top: 0px;
+    margin-top: 0.5px;
+
     
 
 }
 
 h1 {
-    color: rgb(212, 45, 45);
+    color: gray;
 }
 h2{
-    color: rgb(212, 45, 45);
+    color: grey;
 
 }
 h3{
-    color: rgb(212, 45, 45);
+    color:  black;
 
 }
 .header{
@@ -36,9 +35,7 @@ h3{
 
     display: flex;
    
-   
 
-   
    
 }
 
@@ -46,8 +43,8 @@ h3{
     margin-left: auto;
 }
 label{
-    font-size: x-large;
-    color: rgb(212, 45, 45);
+    font-size: medium;
+    color: gray;
 
 }
 .list{
@@ -164,7 +161,7 @@ p{
 }
 #success-alert-button{
     font-size: x-large;
-    color: rgb(212, 45, 45);
+    color: grey;
 
 
 }
@@ -206,35 +203,34 @@ p{
 
 }
 #alert2-lines-1{
-    background-color: chocolate;
+    background-color: #3f909b
 
 }
 #alert2-lines-2 {
-    background-color: green;
+    background-color:#9f83a3
 
    
     
 }
 #alert2-lines-3{
-    background-color: rgb(50, 50, 226);
+    background-color: #e879f9;
 
     
 }
 #alert2-lines-4{
-    background-color: yellow;
-
+    background-color: #fb923c;
     
 }
 #alert2-lines-5{
-    background-color: rgb(204, 51, 51);
+    background-color: #eab308;
 
     
 }
 
 /* ****************right side information div************ */
 .information-div{
-    border: 1px solid rgb(224, 38, 38);
-    height: 50vh;
+    border: 1px solid black;
+    height: 25vh;
     padding: 1rem;
     position: fixed;
     right: 0px;
@@ -243,19 +239,26 @@ p{
 /* ***************arrow button************ */
 
 .arrow-button-1{
-    font-size: 2rem;
-    left: 0px;
-    color:  rgb(224, 38, 38) ;
-    text-decoration: none;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1vh;
+    border-radius: 0.5rem;
+    
 
    
 }
 .arrow-button-2{
-    font-size: 2rem;
-    right: 0px;
-    color:  rgb(224, 38, 38) ;
-    text-decoration: none;
-
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1vh;
+    border-radius: 0.5rem;
+    
 
    
 }
@@ -281,7 +284,7 @@ p{
         position: relative;
       
       
-        /* top: 4rem; */
+    
       
     }
     .links-div{
