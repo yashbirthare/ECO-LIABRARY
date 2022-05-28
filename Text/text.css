@@ -1,33 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Oswald:wght@300&display=swap');
 
 body{
-    background-color: #e4ec9bf8;
+    background-color: #ffe96e;
     font-family:  'Merriweather', serif;
     font-size: large;
 }
 
 .nav-heading{
-    font-size: 2.5rem;
-    color: rgb(212, 45, 45);
+    font-size: 2rem;
+    color: rgb(68, 66, 26);
     margin-right: 2rem;
-    margin-top: 0px;
+    margin-top: 0.5px;
     
-
 }
+
+.header{
+    display: flex;
+}
+
 
 h1 {
-    color: rgb(212, 45, 45);
+    color: rgb(89, 84, 124);
 }
 h2{
-    color: rgb(212, 45, 45);
+    color: rgb(89, 84, 124);
 
 }
 h3{
-    color: rgb(212, 45, 45);
+    color: black;
 
 }
 p{
-    font-size: x-large;
+    font-size: medium;
 }
 
 
@@ -38,10 +42,10 @@ p{
 
 /* ****************right side information div************ */
 .information-div{
-    border: 1px solid rgb(224, 38, 38);
-    height: 70vh;
+    border: 1px solid black;
+    height: 55vh;
     width: 15%;
-    padding: 1rem;
+    padding-right: 1rem;
     position: fixed;
     right: 0px;
 
@@ -53,7 +57,7 @@ p{
 
 .text-area{
     margin-top: 2rem;
-    width: 100%;
+    width: 85%;
     height: 25vh;
     background-color: black;
     color: bisque;
@@ -63,17 +67,19 @@ p{
 /* ***************arrow button************ */
 
 .arrow-button-1{
-    font-size: 2rem;
+    font-weight: bold;
+    font-size: 1.5rem;
     left: 0px;
-    color:  rgb(224, 38, 38) ;
+    color: brown;
     text-decoration: none;
 
    
 }
 .arrow-button-2{
-    font-size: 2rem;
-    right: 0px;
-    color:  rgb(224, 38, 38) ;
+    font-weight: bold;
+    font-size: 1.5rem;
+    left: 0px;
+    color: brown;
     text-decoration: none;
 
 
