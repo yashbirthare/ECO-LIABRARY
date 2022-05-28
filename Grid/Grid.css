@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Oswald:wght@300&display=swap');
 
 body{
-    background-color: #e4ec9bf8;
+    background-color: #fffd80f8;
     font-family:  'Merriweather', serif;
     font-size: large;
 }
@@ -9,7 +9,7 @@ body{
 
 .nav-heading{
     font-size: 2rem;
-    color: gray;
+    color: rgb(68, 66, 26);
     margin-right: 2rem;
     margin-top: 0.5px;
 
@@ -20,10 +20,10 @@ body{
 }
 
 h1 {
-    color: gray;
+    color:   rgb(89, 84, 124);
 }
 h2{
-    color: grey;
+    color:  rgb(89, 84, 124);
 
 }
 h3{
@@ -170,7 +170,7 @@ label{
  
     list-style: none;
     position: fixed;
-    top: 3rem;
+    top: 2.5rem;
 
   
 }
