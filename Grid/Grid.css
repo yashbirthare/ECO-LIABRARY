@@ -86,11 +86,13 @@ p{
     
 }
 
+.arrow-button-container{
+    margin-top: 2rem;
+    margin-bottom: 2rem;  
+  }
+  
+  
 
-
-
-
-/* ******************** */
 
 .nav-heading{
     font-size: 2rem;
