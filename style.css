@@ -52,15 +52,9 @@ label{
 
 .banner-heading{
     padding-right: 5rem;
-    display: flex;
-    flex-direction: column;
+    padding-left: 5rem;
+    align-items: center; 
 
-    align-items: right; 
-    margin: 5vh;
-    margin-bottom: auto;
-   
-
-    
 }
 .list{
     margin-left: auto;
@@ -90,20 +84,14 @@ h2{
 }
 
 .heading{
-    margin-left: 20vh;
-    text-align: left;
-    padding-bottom: 5rem;
-    padding-top: 1vh;
-    align-items: left; 
-    width: 45rem;
+    padding-left: 5rem;
+    width: 35rem;
     font-size: x-large;
 
 }
 
 .buttonstarted{
    padding-top: 1vh;
-   margin-left: 2rem;
-   margin-top: 1rem;
    margin-bottom: 2vh;
    border-radius: 1.5rem;border;
    width: 15rem;
@@ -130,8 +118,10 @@ h2{
 
 
 .yash{ 
-    padding-top: 70vh;
-    padding-right: 10vh;
+    padding-top: 30rem;
+    padding-right: 2rem;
+    
+    
 }
 
 
