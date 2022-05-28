@@ -9,26 +9,30 @@ body{
 
 .nav-heading{
     font-size: 2.5rem;
-    color: rgb(212, 45, 45);
+    color: rgb(68, 66, 26);
     margin-right: 2rem;
     margin-top: 0px;
     
 
 }
 
+.header{
+    display: flex;
+}
+
 h1 {
-    color: rgb(212, 45, 45);
+    color:   rgb(89, 84, 124);
 }
 h2{
-    color: rgb(212, 45, 45);
+    color:  rgb(89, 84, 124);
 
 }
 h3{
-    color: rgb(212, 45, 45);
+    color:  black;
 
 }
 p{
-    font-size: x-large;
+    font-size: medium;
 }
 
 
@@ -39,12 +43,14 @@ p{
 
 /* ****************right side information div************ */
 .information-div{
-    border: 1px solid rgb(224, 38, 38);
-    height: 40vh;
+    border: 1px solid black;
+    height: 25vh;
     width: 15%;
     padding: 1rem;
     position: fixed;
+    text-align: center;
     right: 0px;
+    font-family: 'Bebas Neue', cursive;
 
 
 
@@ -54,7 +60,7 @@ p{
 
 .text-area{
     margin-top: 2rem;
-    width: 100%;
+    width: 85%;
     height: 25vh;
     background-color: black;
     color: bisque;
@@ -64,34 +70,42 @@ p{
 /* ***************arrow button************ */
 
 .arrow-button-1{
-    font-size: 2rem;
+    font-weight: bold;
+    font-size: 1.5rem;
     left: 0px;
-    color:  rgb(224, 38, 38) ;
+    color: brown;
     text-decoration: none;
 
    
 }
 .arrow-button-2{
-    font-size: 2rem;
-    right: 0px;
-    color:  rgb(224, 38, 38) ;
+    font-weight: bold;
+    font-size: 1.5rem;
+    left: 0px;
+    color: brown;
     text-decoration: none;
+
 
 
    
 }
 .arrow-button-container{
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   
 }
 
-
+.nav-heading{
+    font-size: 2rem;
+    padding-inline: 2rem;
+    color: grey;
+    margin-right: 2rem;
+    margin-top: 0px;
+    
+}
 
 .header{
  
-
     display: flex;
 
    
@@ -103,7 +117,7 @@ p{
 }
 label{
     font-size: x-large;
-    color: rgb(212, 45, 45);
+    color: gray;
 
 }
 .list{
@@ -116,7 +130,7 @@ label{
     
 }
 .nav-links{
-    color: rgb(212, 45, 45);
+    color: gray;
 
     
     text-decoration: none;
@@ -145,17 +159,18 @@ label{
 }
 
 .link-items{
-    font-size: 1.5rem;
+    font-size: 1rem;
+    margin-bottom: auto;
+    padding-bottom:  4rem;
     text-decoration: none;
-    color: brown;
-
+    color: black;
     
 }
 #unorder{
  
     list-style: none;
     position: fixed;
-    top: 4rem;
+    top: 2.5rem;
 
   
 }
@@ -179,22 +194,27 @@ margin-top: 0%;
 
 
 #error-button{
+margin-bottom: 10px;
 font-size: large;
-border: 2px solid black;
-background-color: rgb(212, 45, 45) ;
+border: 1px solid black;
+background-color: rgb(138, 137, 75) ;
 color: white;
 }
+
 #loading-button{
+margin-bottom: 10px;
 font-size: large;
-border: 2px solid black;
-background-color: rgb(212, 45, 45) ;
+border: 1px solid black;
+background-color: rgb(138, 137, 75) ;
 color: white;
 
 }
+
 #wishlist-button{
+margin-bottom: 10px;
 font-size: large;
-border: 2px solid black;
-background-color: rgb(212, 45, 45) ;
+border: 1px solid black;
+background-color: rgb(138, 137, 75) ;
 color: white;
 
 }
@@ -211,16 +231,13 @@ color: white;
     visibility: hidden;
 }
 .snackbar-1{
-    border: 5px solid black;
+    border: 2px solid black;
     background-color: rgb(10, 7, 1);
     color: beige;
     visibility: hidden;
     position: fixed;
     bottom: 0rem;
     right: 5rem;
-
-
-
 }
 
 

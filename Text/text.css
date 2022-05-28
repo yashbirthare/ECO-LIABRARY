@@ -49,6 +49,7 @@ p{
     position: fixed;
     right: 0px;
     text-align: center;
+    font-family: 'Bebas Neue', cursive;
 
 
 
@@ -192,6 +193,7 @@ margin-top: 0%;
 
 .heading-container{
     border: 2px;
+    font-family: 'Oswald', sans-serif;
 }
 
 
