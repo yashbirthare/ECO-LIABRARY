@@ -232,7 +232,7 @@ p{
 /* ****************right side information div************ */
 .information-div{
     border: 1px solid black;
-    height: 28vh;
+    height: 27vh;
     padding: 1rem;
     position: fixed;
     right: 0px;
