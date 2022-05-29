@@ -10,37 +10,43 @@ body{
 
 
 .nav-heading{
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: gray;
     margin-right: 2rem;
     margin-top: 0px;
 
 }
+.header{
+    display: flex;
+}
 
 h1 {
-    color: gray;
+    color:   rgb(89, 84, 124);
 }
 h2{
-    color: grey;
+    color:  rgb(89, 84, 124);
 
 }
 h3{
     color:  black;
 
-
+}
+p{
+    font-size: medium;
 }
 
-.header{
-    display: flex; 
-   
-}
+
+
+
+
+
 
 .list-item{
     margin-left: auto;
 }
 label{
     font-size: x-large;
-    color:  ghostwhite;
+    color:  gray;
 
 }
 .list{
@@ -94,7 +100,7 @@ label{
  
     list-style: none;
     position: fixed;
-    top: 4rem;
+    top: 2.5rem;
 
   
 }
@@ -123,12 +129,13 @@ p{
 /* ****************right side information div************ */
 .information-div{
     border: 1px solid black;
-    height: 65vh;
+    height: 55vh;
     width: 15%;
-    padding: 1rem;
+    padding-right: 1rem;
     position: fixed;
     text-align: center;
     right: 0px;
+    font-family: 'Bebas Neue', cursive;
     
 
 
@@ -153,25 +160,26 @@ p{
 /* ***************arrow button************ */
 
 .arrow-button-1{
-    font-size: 2rem;
+    font-weight: bold;
+    font-size: 1.5rem;
     left: 0px;
-    color: violet;
+    color: brown;
     text-decoration: none;
-
    
 }
 .arrow-button-2{
-    font-size: 2rem;
-    right: 0px;
-    color: violet;
+    font-weight: bold;
+    font-size: 1.5rem;
+    left: 0px;
+    color: brown;
     text-decoration: none;
-
+   
 
    
 }
 .arrow-button-container{
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 
   
 }
@@ -180,9 +188,12 @@ p{
 
 .avatar-png{
     display: flex;
-    border: 1px solid black;
+    border: 5px solid black;
+    border-radius: 4rem;
     justify-content: center;
     padding: 1rem;
+    margin-bottom: 20px;
+    
 }
 .avatars{
     height: 7ch;
