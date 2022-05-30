@@ -4,31 +4,36 @@ body{
     background-color: #eeff6af8;
     font-family:  'Merriweather', serif;
     font-size: large;
+    text-align: center;
 }
 
 
 .nav-heading{
-    font-size: 2.5rem;
-    color: rgb(212, 45, 45);
+    font-size: 2rem;
+    color:rgb(68, 66, 26);
     margin-right: 2rem;
-    margin-top: 0px;
+    margin-top: 0.5px;
     
 
 }
 
+.header{
+    display: flex;
+}
+
 h1 {
-    color: rgb(212, 45, 45);
+    color:   rgb(89, 84, 124);
 }
 h2{
-    color: rgb(212, 45, 45);
+    color:  rgb(89, 84, 124);
 
 }
 h3{
-    color: rgb(212, 45, 45);
+    color:  black;
 
 }
 p{
-    font-size: x-large;
+    font-size: medium;
 }
 
 
@@ -39,15 +44,16 @@ p{
 
 /* ****************right side information div************ */
 .information-div{
-    border: 1px solid rgb(224, 38, 38);
+   
+    border: 1px solid black;
     height: 60vh;
-    width: 15%;
-    padding: 1rem;
+    width: 16%;
+    padding-right: 1rem;
     position: fixed;
+    text-align: center;
     right: 0px;
-
-
-
+    font-family: 'Bebas Neue', cursive;
+    
 
 }
 /* ****************text area************ */
@@ -64,41 +70,37 @@ p{
 /* ***************arrow button************ */
 
 .arrow-button-1{
-    font-size: 2rem;
+    font-weight: bold;
+    font-size: 1.5rem;
     left: 0px;
-    color:  rgb(224, 38, 38) ;
+    color: brown;
     text-decoration: none;
-
    
 }
 .arrow-button-2{
-    font-size: 2rem;
-    right: 0px;
-    color:  rgb(224, 38, 38) ;
+    font-weight: bold;
+    font-size: 1.5rem;
+    left: 0px;
+    color: brown;
     text-decoration: none;
-
 
    
 }
 .arrow-button-container{
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 
   
 }
 
+.nav-heading{
+    font-size: 2rem;
+    padding-inline: 2rem;
+    color: grey;
+    margin-right: 2rem;
+    margin-top: 0px;
+    
 
-
-
-
-
-.header{
- 
-
-    display: flex;
-
-   
-   
 }
 
 .list-item{
@@ -106,7 +108,7 @@ p{
 }
 label{
     font-size: x-large;
-    color: rgb(212, 45, 45);
+    color: gray;
 
 }
 .list{
@@ -119,7 +121,7 @@ label{
     
 }
 .nav-links{
-    color: rgb(212, 45, 45);
+    color: gray;
 
     
     text-decoration: none;
@@ -148,9 +150,11 @@ label{
 }
 
 .link-items{
-    font-size: 1.5rem;
+    font-size: 1rem;
+    margin-bottom: auto;
+    padding-bottom:  4rem;
     text-decoration: none;
-    color: brown;
+    color: black;
 
     
 }
@@ -158,7 +162,7 @@ label{
  
     list-style: none;
     position: fixed;
-    top: 4rem;
+    top: 2.5rem;
    
 
   
@@ -183,7 +187,8 @@ margin-top: 0%;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 8%;
+    text-align: center;
+    width: 7%;
     margin-bottom : 2rem ;
     position: relative;
 }
@@ -192,7 +197,7 @@ margin-top: 0%;
 
     position: absolute;
     top: -1rem;
-        right:0.5rem;
+    right:1rem;
 }
 
 
@@ -214,8 +219,6 @@ margin-top: 0%;
 border: 1px ;
 border-radius: 40%;
 font-size: large;
-    background-color: tomato;
-
     position: absolute;
     top: -1rem;
         right:0.5rem;
@@ -237,11 +240,9 @@ font-size: large;
 border: 1px ;
 border-radius: 40%;
 font-size: large;
-    background-color: tomato;
-
     position: absolute;
     top: -1rem;
-        right:0.5rem;
+    right:0.8rem;
 }
 
 
@@ -262,9 +263,6 @@ font-size: large;
 border: 1px ;
 border-radius: 50%;
 font-size: large;
-    background-color: green;
-    color: green;
-
     position: absolute;
     top: -1rem;
         right:0.5rem;

@@ -4,6 +4,7 @@ body{
     background-color:#eeff6af8;
     font-family:  'Merriweather', serif;
     font-size: large;
+    text-align: center;
 }
 
 
@@ -181,12 +182,23 @@ p{
 
   
 }
+
+.nav-heading{
+    font-size: 2rem;
+    padding-inline: 2rem;
+    color: grey;
+    margin-right: 2rem;
+    margin-top: 0px;
+    
+
+}
+
 /* *******************image avatar ******** */
 
 
 .avatar-png{
     display: flex;
-    border: 5px solid black;
+    border: 3px solid black;
     border-radius: 4rem;
     justify-content: center;
     padding: 1rem;
@@ -207,7 +219,7 @@ p{
 
 .avatar-png2{
     display: flex;
-    border: 10px solid black;
+    border: 3px solid black;
     border-radius: 4rem;
     justify-content: center;
     padding: 0.3rem;
@@ -228,7 +240,7 @@ p{
 
 .avatar-png3{
     display: flex;
-    border: 5px solid black;
+    border: 3px solid black;
     border-radius: 4rem;
     justify-content: center;
     padding: 1rem;
@@ -273,16 +285,15 @@ p{
 
 .avatar-png2{
     display: flex;
-    border: 1px solid black;
+    border: 3px solid black;
     justify-content: center;
     
    
 }
 .avatars4{
-    height: 18ch;
+    height: 20ch;
     margin: 2.5rem;
-    border: 1px solid black;
-    /* border-radius: 40%; */
+    border: 3px solid black;
     background-color: bisque;
     box-shadow: 0 2px 5px 
 }

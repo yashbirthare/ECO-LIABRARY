@@ -4,6 +4,7 @@ body{
     background-color: #eeff6af8;
     font-family:  'Merriweather', serif;
     font-size: large;
+    text-align: center;
 }
 
 
@@ -43,7 +44,7 @@ p{
     margin-left: auto;
 }
 label{
-    font-size: medium;
+    font-size: x-large;
     color: gray;
 
 }
@@ -267,6 +268,15 @@ margin-top: 0%;
   
 }
 
+.nav-heading{
+    font-size: 2rem;
+    padding-inline: 2rem;
+    color: grey;
+    margin-right: 2rem;
+    margin-top: 0px;
+    
+
+}
 
 
 /* ***************responsive************ */
