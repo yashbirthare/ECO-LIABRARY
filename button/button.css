@@ -4,53 +4,50 @@ body{
     background-color: #eeff6af8;
     font-family:  'Merriweather', serif;
     font-size: large;
+    text-align: center;
 }
 
 
-p{
-    font-size: x-large;
-}
 
 
 .nav-heading{
-    font-size: 2.5rem;
-    color: rgb(212, 45, 45);
+    font-size: 2rem;
+    color: rgb(68, 66, 26);
     margin-right: 2rem;
-    margin-top: 0px;
-    
+    margin-top: 0.5px;
 
-}
-
-
-
-
-h1 {
-    color: rgb(212, 45, 45);
-}
-h2{
-    color: rgb(212, 45, 45);
-
-}
-h3{
-    color: rgb(212, 45, 45);
 
 }
 
 .header{
- 
-
     display: flex;
-
-   
-   
 }
+
+h1 {
+    color:   rgb(89, 84, 124);
+}
+h2{
+    color:  rgb(89, 84, 124);
+
+}
+h3{
+    color:  black;
+
+}
+p{
+    font-size: medium;
+}
+
+
+
+
 
 .list-item{
     margin-left: auto;
 }
 label{
     font-size: x-large;
-    color: rgb(212, 45, 45);
+    color: gray;
 
 }
 .list{
@@ -63,7 +60,7 @@ label{
     
 }
 .nav-links{
-    color: rgb(212, 45, 45);
+    color: gray;
 
     
     text-decoration: none;
@@ -92,17 +89,18 @@ label{
 }
 
 .link-items{
-    font-size: 1.5rem;
+    font-size: 1rem;
+    margin-bottom: auto;
+    padding-bottom:  4rem;
     text-decoration: none;
-    color: brown;
+    color: black;
 
-    
 }
 #unorder{
  
     list-style: none;
     position: fixed;
-    top: 4rem;
+    top: 2.5rem;
 
   
 }
@@ -127,15 +125,14 @@ margin-top: 0%;
 
 /* ****************right side information div************ */
 .information-div{
-    border: 1px solid rgb(224, 38, 38);
-    height: 70vh;
-    width: 15%;
-    padding: 1rem;
+    border: 1px solid black;
+    height: 75vh;
+    width: 16%;
+    padding-right: 1rem;
     position: fixed;
+    text-align: center;
     right: 0px;
-
-
-
+    font-family: 'Bebas Neue', cursive;
 
 }
 
@@ -157,7 +154,8 @@ margin-top: 0%;
 /* ***************basic button div************ */
 
 .basic-button-container{
-    border: 1px solid black;
+    border-radius: 5rem;
+    border: solid black;
     display: flex;
     justify-content: center;
     height: 20vh;
@@ -170,10 +168,10 @@ margin-top: 0%;
     margin: 2rem;
     height: 3rem;
     margin-top: 2rem;
-    background-color: rgb(239, 245, 247);
-    border: none;
-    
+    background-color: rgb(161, 238, 163);
+    border-radius: 4rem;
     width: 6rem;
+    font-weight: bold;
 }
 .contained-button{
     font-size: large;
@@ -181,10 +179,9 @@ margin-top: 0%;
     height: 3rem;
     margin-top: 2rem;
     color: antiquewhite;
-    border-color: antiquewhite;
-    background-color: rgb(67, 39, 189);
-
-    border-radius: 0.4rem;
+    font-weight: bold;
+    background-color: rgb(198, 76, 217);
+    border-radius: 4rem;
     width: 8rem;
 
 }
@@ -193,9 +190,10 @@ margin-top: 0%;
     margin: 2rem;
     height: 3rem;
     margin-top: 2rem;
-    border-radius: 0.4rem;
+    border-radius: 4rem;
+    font-weight: bold;
     width: 8rem;
-    color: rgb(70, 25, 233);
+    background-color: rgb(66, 189, 70);
     border-color: rgb(68, 44, 207);
 
 }
@@ -209,7 +207,8 @@ margin-top: 0%;
 
 
 .basic-button-container{
-    border: 1px solid black;
+    border-radius: 5rem;
+    border: solid black;
     display: flex;
     justify-content: center;
     height: 20vh;
@@ -224,9 +223,11 @@ margin-top: 0%;
     font-size: small;
     height: 2rem;
     color: antiquewhite;
-    border-color: antiquewhite;
-    background-color: rgb(67, 39, 189);
+    border-color: rgb(250, 239, 215);
+    background-color: rgb(31, 46, 68);
     margin-top: 2.5rem;
+    font-weight: bold;
+    border-radius: 4px;
  
     
     
@@ -239,10 +240,11 @@ margin-top: 0%;
     margin-top: 2rem;
     color: antiquewhite;
     border-color: antiquewhite;
-    background-color: rgb(67, 39, 189);
-
-    border-radius: 0.4rem;
+    background-color: rgb(31, 46, 68);
+    border-radius: 4rem;
     width: 8rem;
+     font-weight: bold;
+    border-radius: 6px;
 
 }
 .xx-large-button{
@@ -254,7 +256,10 @@ margin-top: 0%;
     width: 15rem;
     color: antiquewhite;
     border-color: antiquewhite;
-    background-color: rgb(67, 39, 189);
+    background-color: rgb(31, 46, 68);
+    font-weight: bold;
+    border-radius: 8px;
+
 }
 
 
@@ -265,6 +270,7 @@ margin-top: 0%;
 
 #basic-button-container{
     border: 1px solid black;
+    border-radius: 4rem;
     display: flex;
     justify-content: center;
     height: 20vh;
@@ -281,12 +287,11 @@ margin-top: 0%;
     margin: 1rem;
     height: 3rem;
     margin-top: 2rem;
-    color: antiquewhite;
-    border-color: antiquewhite;
+    color: white;
     background-color: green;
-
-    border-radius: 0.4rem;
+    border-radius: 2rem;
     width: 8rem;
+    font-weight: bold;
     
   
 }
@@ -295,38 +300,33 @@ margin-top: 0%;
     margin: 1rem;
     height: 3rem;
     margin-top: 2rem;
-    color: antiquewhite;
-    border-color: antiquewhite;
+    color: white;
     background-color: red;
-
-    border-radius: 0.4rem;
+    border-radius: 2rem;
     width: 8rem;
-
+    font-weight: bold;
 }
 .yellow-button{
     font-size: large;
     margin: 1rem;
     height: 3rem;
     margin-top: 2rem;
-    color: rgb(40, 206, 18);
-    border-color: antiquewhite;
-    background-color: yellow;
-
-    border-radius: 0.4rem;
+    color: white;
+    background-color: rgb(255, 225, 0);
+    border-radius: 2rem;
     width: 8rem;
+    font-weight: bold;
 }
 .blue-button{
     font-size: large;
     margin: 1rem;
     height: 3rem;
     margin-top: 2rem;
-    color: antiquewhite;
-    border-color: antiquewhite;
+    color: white;
     background-color: blue;
-
-    border-radius: 0.4rem;
+    border-radius: 2rem;
     width: 8rem;
-
+    font-weight: bold;
 }
 
 
@@ -334,7 +334,7 @@ margin-top: 0%;
 /* ***************link button********* */
 
 .basic-button-container{
-    border: 1px solid black;
+    border: 1px solid white;
     display: flex;
     justify-content: center;
     height: 20vh;
@@ -348,10 +348,8 @@ margin-top: 0%;
     margin: 1rem;
     height: 3rem;
     margin-top: 2rem;
-    color: antiquewhite;
-    border-color: rgb(45, 27, 204);
-    background-color: blue;
-
+    font-weight: bold;
+    background-color: rgb(34, 34, 217);
     border-radius: 0.4rem;
     width: 8rem;
 
@@ -361,21 +359,20 @@ margin-top: 0%;
     margin: 1rem;
     height: 3rem;
     margin-top: 2rem;
-    color: rgb(92, 11, 15);
-    border-color: rgb(134, 8, 24);
-    background-color: rgb(252, 8, 61);
-
+    font-weight: bold;
+    background-color:#E1306C;
     border-radius: 0.4rem;
     width: 8rem;
 
 }
 .facebook{
     text-decoration: none;
-    color:rgb(42, 10, 95) ;
+    color:rgb(251, 249, 253) ;
 }
 .instagram{
     text-decoration: none;
-    color:rgb(92, 11, 15) ;
+    color:rgb(234, 229, 229) 
+
 }
 
 
@@ -391,15 +388,15 @@ margin-top: 0%;
     padding: 1rem;
     
     
+    
 }
-
-
 .icon-button{
     border: none;
-    font-size: large;
-    margin: 1rem;
-    height: 3rem;
-    margin-top: 2rem;
+    font-size: small;
+    margin: 0.1rem;
+    height: 0.1rem;
+    margin-top: 0.1rem;
+    
 
 
 }
@@ -413,25 +410,25 @@ margin-top: 0%;
 /* ***************arrow button************ */
 
 .arrow-button-1{
-    font-size: 2rem;
+    font-weight: bold;
+    font-size: 1.5rem;
     left: 0px;
-    color:  rgb(224, 38, 38) ;
+    color: brown;
     text-decoration: none;
-
    
+    
 }
 .arrow-button-2{
-    font-size: 2rem;
-    right: 0px;
-    color:  rgb(224, 38, 38) ;
+    font-weight: bold;
+    font-size: 1.5rem;
+    left: 0px;
+    color: brown;
     text-decoration: none;
-
-
    
 }
 .arrow-button-container{
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 
   
 }
@@ -606,10 +603,11 @@ margin-top: 0%;
 }
 .icon-button{
     border: none;
-    font-size: X-large;
-    margin: 2rem;
-    height: 3rem;
-    margin-top: 3rem;
+    font-size: small;
+    margin: 0.1rem;
+    height: 0.1rem;
+    margin-top:0.1rem;
+    max-width: 5px;
 
 
 }

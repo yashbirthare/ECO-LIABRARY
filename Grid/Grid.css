@@ -191,13 +191,14 @@ margin-top: 0%;
 
 
 .grid-item-two{
-    display: flex;
+    display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
 .grid1-items{
     font-size: large;
     padding: 1rem;
+    
 
 }
 
