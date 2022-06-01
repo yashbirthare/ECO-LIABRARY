@@ -127,7 +127,7 @@ margin-top: 0%;
 .information-div{
     border: 1px solid black;
     height: 75vh;
-    width: 16%;
+    width: 18%;
     padding-right: 1rem;
     position: fixed;
     text-align: center;
@@ -391,10 +391,10 @@ margin-top: 0%;
     
 }
 .icon-button{
-    font-size: small;
-    margin: 1rem;
-    height: 1rem;
-    margin-top: 1rem;
+    font-size: large;
+    margin: 0.5rem;
+    height: 0.5rem;
+    margin-top: 0.5rem;
     
 
 
@@ -438,9 +438,14 @@ margin-top: 0%;
 
 .floating-button-container{
     position: relative;
+    
+}
 
-
-
+.gmail-png{
+    border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 300px;
 }
 
 .floating-button{
@@ -450,9 +455,9 @@ margin-top: 0%;
     color: rgb(245, 237, 237);
     border-color: rgb(243, 18, 18) ;
     position: absolute;
-    bottom: 6rem;
-   right: 14.4rem;
-   font-size: 3.7rem;
+    top: 30rem;
+   right: 16rem;
+   font-size: 2.5rem;
 }
 
 

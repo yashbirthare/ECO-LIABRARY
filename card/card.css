@@ -4,33 +4,37 @@ body{
     background-color: #eeff6af8;
     font-family:  'Merriweather', serif;
     font-size: large;
+    text-align: center;
 }
 
 
 .nav-heading{
-    font-size: 2.5rem;
-    color: rgb(212, 45, 45);
+    font-size: 2rem;
+    color: rgb(68, 66, 26);
     margin-right: 2rem;
-    margin-top: 0px;
-    
+    margin-top: 0.5px;
 
+
+}
+
+.header{
+    display: flex;
 }
 
 h1 {
-    color: rgb(212, 45, 45);
+    color:   rgb(89, 84, 124);
 }
 h2{
-    color: rgb(212, 45, 45);
+    color:  rgb(89, 84, 124);
 
 }
 h3{
-    color: rgb(212, 45, 45);
+    color:  black;
 
 }
 p{
-    font-size: x-large;
+    font-size: medium;
 }
-
 
 
 
@@ -39,14 +43,14 @@ p{
 
 /* ****************right side information div************ */
 .information-div{
-    border: 1px solid rgb(224, 38, 38);
-    height: 70vh;
-    width: 15%;
-    padding: 1rem;
+    border: 1px solid black;
+    height: 65vh;
+    width: 16%;
+    padding-right: 1rem;
     position: fixed;
+    text-align: center;
     right: 0px;
-
-
+    font-family: 'Bebas Neue', cursive;
 
 
 }
@@ -55,7 +59,7 @@ p{
 .text-area{
     
     margin-top: 2rem;
-    width: 100%;
+    width: 85%;
     height: 25vh;
     background-color: black;
     color: bisque;
@@ -65,45 +69,48 @@ p{
 /* ***************arrow button************ */
 
 .arrow-button-1{
-    font-size: 2rem;
+    font-weight: bold;
+    font-size: 1.5rem;
     left: 0px;
-    color:  rgb(224, 38, 38) ;
+    color: brown;
     text-decoration: none;
 
-   
 }
 .arrow-button-2{
-    font-size: 2rem;
-    right: 0px;
-    color:  rgb(224, 38, 38) ;
+    font-weight: bold;
+    font-size: 1.5rem;
+    left: 0px;
+    color: brown;
     text-decoration: none;
 
 
    
 }
 .arrow-button-container{
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 
   
 }
 
+.nav-heading{
+    font-size: 2rem;
+    padding-inline: 2rem;
+    color: grey;
+    margin-right: 2rem;
+    margin-top: 0px;
+    
 
-.header{
- 
-
-    display: flex;
-
-   
-   
 }
+
+
 
 .list-item{
     margin-left: auto;
 }
 label{
     font-size: x-large;
-    color: rgb(212, 45, 45);
+    color: gray;
 
 }
 .list{
@@ -116,7 +123,7 @@ label{
     
 }
 .nav-links{
-    color: rgb(212, 45, 45);
+    color: gray;
 
     
     text-decoration: none;
@@ -145,9 +152,12 @@ label{
 }
 
 .link-items{
-    font-size: 1.5rem;
+    font-size: 1rem;
+    margin-bottom: auto;
+    padding-bottom:  4rem;
     text-decoration: none;
-    color: brown;
+    color: black;
+
 
     
 }
@@ -155,7 +165,7 @@ label{
  
     list-style: none;
     position: fixed;
-    top: 4rem;
+    top: 2.5rem;
 
   
 }
@@ -166,48 +176,49 @@ margin-top: 0%;
 
 }
 .content-div{
-    margin: 0rem
+    margin-top: 0rem;
 
 }
 
 .card1{
-    border: 2px solid black;
+    border: 5px solid black;
+    border-radius: 4rem;
     width: 50%;
     text-align: center;
+    padding-right: 10rem;
+    padding-left: 10rem;
 }
-.card2{
-    position: relative;
-    border: 1px solid black;
-    width: 35%;
+.card2-img1{
+    display: flex;
     
-  }
-  /* .card-img{
-      position: relative;
-  } */
-  .card2-text{
-      color: rgb(78, 11, 11)
-      ;
-      position: absolute;
-      top: 5rem;
-      left: 50px;
-
+    justify-content: center;
+    padding: 0.3rem;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    padding-right: 10rem;
+    padding-left: 10rem;
   }
   
-
+ 
 
 
 
 .card3{
     border: 1px solid black;
+    border-radius: 40px;
     background-color: white;
     position: relative;
-   
+    padding-left: 5rem;
+    padding-right: 5rem;
     width: 60%;
-    height: 50vh;
+    height: 55vh;
+    text-align: center;
 }
 .card3-img{
     height: 25ch;
-    margin-left: 2rem;
+    margin-right: 5rem;
+    margin-bottom: 1.5rem;
     margin-top: 1rem;
 }
 .card3-div1{
@@ -222,28 +233,24 @@ margin-top: 0%;
     bottom: 0px;
     left: 0px;
     width: 45%;
-
-    color: white;
-    
-    background-color: orangered;
-
-    font-size: xx-large;
+    color: black;
+    background-color: #fbfbfb;
+    font-size: x-large;
+    font-weight: bold;
     
 }
 .card3-button2{
     position: absolute;
     bottom: 0px;
     right: 0px;
-    width: 55%;
+    width: 51%;
     color: white;
-
-    background-color: orangered;
-    
-    font-size: xx-large;
-    
+    background-color: #fb641b;
+    font-size: x-large;
+    font-weight: bold;
 }
 .button-x{
-    font-size: larger;
+    font-size: medium;
 border: 1px solid black;
 border-radius: 50%;
     position: absolute;
@@ -253,34 +260,31 @@ border-radius: 50%;
 
 
 .card4{
+    border-radius: 2rem;
     margin-top: 5rem;
     margin-bottom: 5rem;
-    
-    box-shadow: 5px 2px 2px 20px rgb(177, 86, 59);
+    box-shadow: 5px 2px 2px 20px rgb(96, 48, 33);
     border: 1px solid black;
     background-color: white;
     position: relative;
-   
+    padding-left: 5rem;
+    padding-right: 5rem;
     width: 60%;
-    height: 50vh;
-   
+    height: 55vh;
+    text-align: center;
 }
 .card5{
     margin-top: 5rem;
     margin-bottom: 5rem;
-    
-
     border: 1px solid black;
     background-color: white;
     position: relative;
-   
     width: 35%;
-    /* height: 50vh; */
    
 }
 .card5-img{
     height: 25ch;
-    margin-left: 2rem;
+    margin-left: 1.5rem;
     margin-top: 1rem;
 }
 
@@ -291,9 +295,9 @@ border-radius: 50%;
     justify-content: space-between;
 }
 .card5-text{
-    /* margin-right: 2rem; */
     margin-left: 1rem;
     margin-bottom: 2rem;
+   
 }
 .card5-button1{
     position: absolute;
@@ -313,9 +317,9 @@ border-radius: 50%;
     bottom: 0px;
     right: 0px;
     width: 45%;
-    color: white;
+    color: black
 
-    background-color: orangered;
+    background-color: white;
     
     font-size: large;
     

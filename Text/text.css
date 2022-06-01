@@ -44,7 +44,7 @@ p{
 /* ****************right side information div************ */
 .information-div{
     border: 1px solid black;
-    height: 55vh;
+    height: 45vh;
     width: 17%;
     padding-right: 1rem;
     position: fixed;
