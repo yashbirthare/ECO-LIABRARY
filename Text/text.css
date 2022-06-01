@@ -43,14 +43,17 @@ p{
 
 /* ****************right side information div************ */
 .information-div{
+    height: 42vh;
     border: 1px solid black;
-    height: 45vh;
-    width: 17%;
+    width: 11%;
     padding-right: 1rem;
+    padding-left: 1rem;
     position: fixed;
     right: 0px;
     text-align: center;
-
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0 12px 15px 19px #c3ec70;
+    
 
 
 

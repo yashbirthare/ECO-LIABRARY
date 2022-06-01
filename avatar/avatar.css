@@ -128,13 +128,15 @@ p{
 /* ****************right side information div************ */
 .information-div{
     border: 1px solid black;
-    height: 55vh;
-    width: 15%;
+    height: 42vh;
     padding-right: 1rem;
+    padding-left: 1rem;
     position: fixed;
-    text-align: center;
     right: 0px;
-    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0 12px 15px 19px #c3ec70;
+    
     
 
 
@@ -194,7 +196,10 @@ p{
 }
 
 /* *******************image avatar ******** */
-
+.image-A{
+    margin-right: auto;
+    margin-left:auto;
+}
 
 .avatar-png{
     display: flex;
@@ -219,19 +224,23 @@ p{
 
 .avatar-png2{
     display: flex;
-    border: 3px solid black;
+     border: 3px solid black;
     border-radius: 4rem;
     justify-content: center;
-    padding: 0.3rem;
     text-align: center;
-    margin-bottom: 20px;
-    
+    margin-bottom: 2px;
+    margin-right: auto;
+    margin-left:auto; 
+    margin-bottom: 10px;
+     
    
 }
 .avatars2{
     height: 25ch;
-    margin: 3rem;
-    border: 1px solid black;
+    margin: 2.5rem;
+    border: 3px solid black;
+    background-color: bisque;
+    box-shadow: 0 10px 20px
 
 }
 
@@ -243,7 +252,7 @@ p{
     border: 3px solid black;
     border-radius: 4rem;
     justify-content: center;
-    padding: 1rem;
+    padding: 0.rem;
     margin-bottom: 10px;
     
    
@@ -295,7 +304,7 @@ p{
     margin: 2.5rem;
     border: 3px solid black;
     background-color: bisque;
-    box-shadow: 0 2px 5px 
+    box-shadow: 0 10px 20px
 }
 .avatar-4-div{
     display: flex;

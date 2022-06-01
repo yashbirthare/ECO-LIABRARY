@@ -44,13 +44,15 @@ p{
 /* ****************right side information div************ */
 .information-div{
     border: 1px solid black;
-    height: 65vh;
-    width: 16%;
+    height: 50vh;
     padding-right: 1rem;
+    padding-left: 1rem;
     position: fixed;
-    text-align: center;
     right: 0px;
-    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0 12px 15px 19px #c3ec70;
+    
 
 
 }
@@ -187,6 +189,9 @@ margin-top: 0%;
     text-align: center;
     padding-right: 10rem;
     padding-left: 10rem;
+    margin-bottom:2rem;
+    margin-right: auto;
+    margin-left: auto;
 }
 .card2-img1{
     display: flex;
@@ -214,6 +219,10 @@ margin-top: 0%;
     width: 60%;
     height: 55vh;
     text-align: center;
+    margin-bottom:2rem;
+    margin-right: auto;
+    margin-left: auto;
+    
 }
 .card3-img{
     height: 25ch;
@@ -263,7 +272,7 @@ border-radius: 50%;
     border-radius: 2rem;
     margin-top: 5rem;
     margin-bottom: 5rem;
-    box-shadow: 5px 2px 2px 20px rgb(96, 48, 33);
+    box-shadow: 0 30px 40px  rgb(61, 59, 59);
     border: 1px solid black;
     background-color: white;
     position: relative;
@@ -272,6 +281,8 @@ border-radius: 50%;
     width: 60%;
     height: 55vh;
     text-align: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 .card5{
     margin-top: 5rem;
@@ -280,6 +291,9 @@ border-radius: 50%;
     background-color: white;
     position: relative;
     width: 35%;
+    margin-right: auto;
+    margin-left: auto;
+
    
 }
 .card5-img{

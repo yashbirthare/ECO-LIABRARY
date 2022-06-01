@@ -10,11 +10,14 @@ body{
 
 .nav-heading{
     font-size: 2rem;
-    color: rgb(68, 66, 26);
+    padding-inline: 2rem;
+    color: grey;
     margin-right: 2rem;
-    margin-top: 0.5px;
+    margin-top: 0px;
+    
 
 }
+
 
 .header{
     display: flex;
@@ -42,15 +45,20 @@ p{
 
 
 /* ****************right side information div************ */
+
+
+
 .information-div{
     border: 1px solid black;
-    height: 55vh;
-    width: 16%;
+    height: 43vh;
+    width: 15%;
     padding-right: 1rem;
+    padding-left: 1rem;
     position: fixed;
-    text-align: center;
     right: 0px;
-    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0 12px 15px 19px #c3ec70;
     
 
 
@@ -96,15 +104,6 @@ p{
   
 
 
-.nav-heading{
-    font-size: 2rem;
-    padding-inline: 2rem;
-    color: grey;
-    margin-right: 2rem;
-    margin-top: 0px;
-    
-
-}
 
 
 
