@@ -4,50 +4,47 @@ body{
     background-color: #eeff6af8;
     font-family:  'Merriweather', serif;
     font-size: large;
+    text-align: center;
 }
-
-p{
-    font-size: x-large;
-}
-h1 {
-    color: rgb(212, 45, 45);
-}
-h2{
-    color: rgb(212, 45, 45);
-
-}
-h3{
-    color: rgb(212, 45, 45);
-
-}
-
-
-
 
 .nav-heading{
-    font-size: 2.5rem;
-    color: rgb(212, 45, 45);
+    font-size: 2rem;
+    padding-inline: 2rem;
+    color: grey;
     margin-right: 2rem;
     margin-top: 0px;
     
 
 }
 
+
 .header{
- 
-
     display: flex;
-
-   
-   
 }
+
+h1 {
+    color:   rgb(89, 84, 124);
+}
+h2{
+    color:  rgb(89, 84, 124);
+
+}
+h3{
+    color:  black;
+
+}
+p{
+    font-size: medium;
+}
+
+
 
 .list-item{
     margin-left: auto;
 }
 label{
     font-size: x-large;
-    color: rgb(212, 45, 45);
+    color: grey;
 
 }
 .list{
@@ -60,7 +57,7 @@ label{
     
 }
 .nav-links{
-    color: rgb(212, 45, 45);
+    color: gray;
 
     
     text-decoration: none;
@@ -89,17 +86,20 @@ label{
 }
 
 .link-items{
-    font-size: 1.5rem;
+    font-size: 1rem;
+    margin-bottom: auto;
+    padding-bottom:  4rem;
     text-decoration: none;
-    color: brown;
+    color: black;
 
+    
     
 }
 #unorder{
  
     list-style: none;
     position: fixed;
-    top: 4rem;
+    top: 2.5rem;
 
   
 }
@@ -120,7 +120,8 @@ margin-top: 0%;
 /* ****************right side information div************ */
 .information-div{
     border: 1px solid black;
-    height: 40vh;
+    height: 34vh;
+    width: 13%;
     padding-right: 1rem;
     padding-left: 1rem;
     position: fixed;
@@ -145,25 +146,26 @@ margin-top: 0%;
 /* ***************arrow button************ */
 
 .arrow-button-1{
-    font-size: 2rem;
+    font-weight: bold;
+    font-size: 1.5rem;
     left: 0px;
-    color:  rgb(224, 38, 38) ;
+    color: brown;
     text-decoration: none;
 
    
 }
 .arrow-button-2{
-    font-size: 2rem;
-    right: 0px;
-    color:  rgb(224, 38, 38) ;
+    font-weight: bold;
+    font-size: 1.5rem;
+    left: 0px;
+    color: brown;
     text-decoration: none;
-
 
    
 }
 .arrow-button-container{
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 
   
 }
@@ -183,9 +185,10 @@ margin-top: 0%;
 
 
 .normal-list-items{
+    border-radius: 4rem;
     list-style: none;
-    border: 1px solid black;
-    margin: 0.5rem;
+    border: 5px solid black;
+    margin: 1.5rem;
 }
 
 
@@ -197,9 +200,11 @@ margin-top: 0%;
 .notification-list-items{
     list-style: none;
     width: 90%;
-    border: 1px solid black;
+    border: 4px solid black;
+    border-radius: 4rem;
     margin: 0.5rem;
-    font-size: x-large;
+    font-size: medium;
+    text-align: center;
    
 }
 
@@ -223,13 +228,17 @@ margin-top: 0%;
 
 .selection-list-item{
     list-style: none;
-    border: 1px solid black;
-    margin: 1rem;  
+    border: 4px solid black;
+    border-radius: 4rem;
+    margin: 0.5rem;  
     height: 5vh; 
+    font-weight: bold;
 }
 
 .input-feild{
-    margin-left: 30rem;
+    margin-left: 15rem;
+    padding-top: 15rem;
+    
 }
 
 

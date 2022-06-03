@@ -46,7 +46,8 @@ p{
 .information-div{
    
     border: 1px solid black;
-    height: 49vh;
+    height: 45vh;
+    width: 14%;
     padding-right: 1rem;
     padding-left: 1rem;
     position: fixed;
