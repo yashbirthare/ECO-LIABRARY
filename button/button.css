@@ -126,8 +126,8 @@ margin-top: 0%;
 /* ****************right side information div************ */
 .information-div{
     border: 1px solid black;
-    height: 61vh;
-    width: 12%;
+    height: 68vh;
+    width: 15%;
     padding-right: 1rem;
     padding-left: 1rem;
     position: fixed;
@@ -458,7 +458,7 @@ margin-top: 0%;
     border-color: rgb(243, 18, 18) ;
     position: absolute;
     top: 30rem;
-   right: 20rem;
+   right: 16rem;
    font-size: 2.5rem;
 }
 

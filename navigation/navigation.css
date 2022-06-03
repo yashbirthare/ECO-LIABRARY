@@ -4,31 +4,38 @@ body{
     background-color: #eeff6af8;
     font-family:  'Merriweather', serif;
     font-size: large;
+    text-align: center;
 }
 
 
 .nav-heading{
-    font-size: 2.5rem;
-    color: rgb(212, 45, 45);
+    font-size: 2rem;
+    padding-inline: 2rem;
+    color: grey;
     margin-right: 2rem;
     margin-top: 0px;
     
 
 }
 
+
+.header{
+    display: flex;
+}
+
 h1 {
-    color: rgb(212, 45, 45);
+    color:   rgb(89, 84, 124);
 }
 h2{
-    color: rgb(212, 45, 45);
+    color:  rgb(89, 84, 124);
 
 }
 h3{
-    color: rgb(212, 45, 45);
+    color:  black;
 
 }
 p{
-    font-size: x-large;
+    font-size: medium;
 }
 
 
@@ -40,7 +47,8 @@ p{
 /* ****************right side information div************ */
 .information-div{
     border: 1px solid black;
-    height: 60vh;
+    height: 20vh;
+    width: 10%;
     padding-right: 1rem;
     padding-left: 1rem;
     position: fixed;
@@ -66,29 +74,30 @@ p{
 
 /* ***************arrow button************ */
 
+
 .arrow-button-1{
-    font-size: 2rem;
+    font-weight: bold;
+    font-size: 1.5rem;
     left: 0px;
-    color:  rgb(224, 38, 38) ;
+    color: brown;
     text-decoration: none;
 
-   
 }
-.arrow-button-2{
-    font-size: 2rem;
-    right: 0px;
-    color:  rgb(224, 38, 38) ;
+.arrow-button-2{ 
+    font-weight: bold;
+    font-size: 1.5rem;
+    left: 0px;
+    color: brown;
     text-decoration: none;
-
-
    
+    
 }
+
 .arrow-button-container{
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-
+    margin-top: 2rem;
+    margin-bottom: 2rem;  
+  }
   
-}
 
 
 
@@ -96,23 +105,13 @@ p{
 
 
 
-
-
-.header{
- 
-
-    display: flex;
-
-   
-   
-}
 
 .list-item{
     margin-left: auto;
 }
 label{
     font-size: x-large;
-    color: rgb(212, 45, 45);
+    color: grey;
 
 }
 .list{
@@ -125,7 +124,7 @@ label{
     
 }
 .nav-links{
-    color: rgb(212, 45, 45);
+    color: gray;
 
     
     text-decoration: none;
@@ -142,9 +141,6 @@ label{
 /* ********************LEFT FEILD ******** */
 
 
-
-
-
 .main-div{
     margin: 1rem;
     display: grid;
@@ -154,9 +150,11 @@ label{
 }
 
 .link-items{
-    font-size: 1.5rem;
+    font-size: 1rem;
+    margin-bottom: auto;
+    padding-bottom:  4rem;
     text-decoration: none;
-    color: brown;
+    color: black;
 
     
 }
@@ -164,7 +162,7 @@ label{
  
     list-style: none;
     position: fixed;
-    top: 4rem;
+    top: 2.5rem;
 
   
 }
@@ -175,7 +173,9 @@ margin-top: 0%;
 
 }
 .content-div{
-    margin: 0rem;
+    margin:auto;
+    padding: 2rem;
+    margin-top: 1rem;
    
 
 }
@@ -186,15 +186,19 @@ margin-top: 0%;
 
 .nav-bar{
     padding: auto;
-    border: 1px solid;
+    border: 3px solid;
+    border-radius: 42px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    
 }
 
 .icon-nav{
-    /* justify-content: space-between; */
+
     margin: 0.5rem;
-    /* margin-left: 1rem; */
+
 }
 .icon-div{
     margin-left: 6rem;
@@ -206,21 +210,6 @@ h4{
     margin-top: 1rem;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -282,9 +271,9 @@ h4{
 }
 
 .icon-nav{
-    /* justify-content: space-between; */
+    
     margin: 0.5rem;
-    /* margin-left: 1rem; */
+    
 }
 .icon-div{
     margin-left: 6rem;
@@ -292,7 +281,7 @@ h4{
 
 }
 h4{
-    /* font-size: larger; */
+    
     margin-top: 1rem;
 
 }
