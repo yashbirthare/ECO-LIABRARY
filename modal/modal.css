@@ -44,18 +44,20 @@ p{
 
 /* ****************right side information div************ */
 .information-div{
-    border: 1px solid black;
-    height: 30vh;
-    width: 18%;
+    border: 0.5px solid rgb(68, 157, 109);
+    height: 24vh;
+    width: 12%;
     padding-right: 1rem;
     padding-left: 1rem;
+    padding-bottom: 1rem;
     position: fixed;
     right: 0px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     box-shadow: 0 12px 15px 19px #c3ec70;
+    margin-right: 1rem;
+    font-weight: bold;
     
-
 
 }
 /* ****************text area************ */
