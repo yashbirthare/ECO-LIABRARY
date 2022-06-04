@@ -178,11 +178,11 @@ margin-top: 0%;
 
 .round-image-container{
     display: flex;
-
     justify-content: center;
     border-radius: 12px;
    
 }
+
 .square-image{
     height: 22ch;
     margin: 2.5rem;

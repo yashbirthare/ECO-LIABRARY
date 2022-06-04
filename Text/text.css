@@ -197,6 +197,7 @@ margin-top: 0%;
 .heading-container{
     border: 2px;
     font-family: 'Oswald', sans-serif;
+    margin-left: 5rem;
 }
 
 
@@ -209,7 +210,7 @@ margin-top: 0%;
 /* ***8**************    ********************** */
 
 .paragraph-container{
-    border: 4px solid black;
+    border: 2px solid rgb(68, 157, 109);
     border-radius: 20px;
     margin-bottom: 2.5rem;
 

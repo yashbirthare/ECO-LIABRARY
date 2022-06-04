@@ -169,7 +169,7 @@ margin-top: 0%;
 }
 .alert-lines{
     border-radius: 25px;
-    border: solid black;
+    border: 3px solid rgb(68, 157, 109);
     margin: 1rem;
     padding: 1rem;
 }
@@ -177,7 +177,7 @@ margin-top: 0%;
     display: flex;
 }
 .alert-types{
-    font-size: xx-large;
+    font-size: large;
 }
 #output1-div{
     font-size: xx-large;
