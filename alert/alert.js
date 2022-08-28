@@ -10,9 +10,6 @@ var output4Div = document.querySelector("#output4-div");
 
 
 
-
-
-
 function errorEventHandler() {
     output1Div.innerHTML= ("❌ This is an error alert")
 
