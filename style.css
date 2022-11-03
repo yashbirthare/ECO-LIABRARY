@@ -15,19 +15,47 @@ body{
 }
 
 .nav-heading{
-    font-size: 2rem;
+    font-size: 1.9rem;
     color:  rgb(117, 100, 100);
     margin-right: 15rem;
-    margin-top: 2px;
+    margin-top: 5px;
 }
 
 
+.input{
+    height: 5vh;
+    width: 27vh;
+    border-radius:  1rem;
+}
+
+.input:hover{
+    border-color: #fb7185;
+}
+.submit{
+    height: 4vh;
+  font-weight: bold;
+  border-radius: 0.5rem;
+}
+
+/* ============================================= */
 
 .list-item{
     margin-left: auto;
-
-    
+    padding-right: 0.4rem;
 }
+
+
+.list{
+    margin-left: auto;
+    font-size: xx-large;
+    font-family: 'Merriweather', serif;
+    list-style: none;
+    display: inline;
+}
+
+
+
+
 label{
     font-size: x-large;
     color: rgb(117, 100, 100);
@@ -59,28 +87,18 @@ label{
     align-items: center; 
 
 }
-.list{
-    margin-left: auto;
-    font-size: xx-large;
-    font-family: 'Merriweather', serif;
-    list-style: none;
-    display: inline;
-    
-   
- 
-    
-}
+
 .form{
     margin-top: 1rem;
-    margin-left: 5rem;
+    margin-left: 1px;
 }
 .nav-links{
     color: rgb(117, 100, 100);
-
-    
     text-decoration: none;
     margin-bottom: 2rem;
 } 
+
+
 h2{
     text-align: center;
 
@@ -108,13 +126,14 @@ h2{
 ================xxxxx======================== */
 
 .get-started{
-    color: rgb(0, 0, 0)
+    color: rgb(0, 0, 0);
+    text-decoration: none;
 }
 
 .get-started:hover{
-    color: rgb(135, 230, 116)
+    color: rgb(135, 230, 116);
+    text-decoration: none;
 }
-
 
 /* ==================xxxxxx========================= */
 .small-container{
@@ -128,8 +147,10 @@ h2{
 }
 
 
-.yash{ 
-    padding-top: 27rem;
+.yash{
+    display: grid;
+    width: 100%;
+    padding-top: 37rem;
     padding-right:1rem;
     text-align: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
@@ -142,20 +163,8 @@ h2{
 @media (max-width: 900px) {
     .navbar{
         position: fixed;
-        top: 1px;
-        bottom: 1px;
-        left: 1px;
-        right: 1px;
         height: 100vh;
         width: 100%;
-        display: block;
         text-align: center;
-    }
-
-    .image{
-        position: fixed;
-        height: 10vh;
-        width: 10%;
-        top: 1px;
     }
 }
