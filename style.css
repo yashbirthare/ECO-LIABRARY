@@ -5,7 +5,8 @@ body{
     font-family:  'Merriweather', serif;
     font-size: large;
     margin: auto;
-}
+    width: 900px;
+
 
 
 .header{
@@ -94,7 +95,7 @@ h2{
 .buttonstarted{
    padding-top: 1rem;
    margin-bottom: 2rem;
-   border-radius: 1.5rem;border;
+   border-radius: 1.5rem border;
    width: 15rem;
    background-color:#fb7185;
    border-bottom: auto;
