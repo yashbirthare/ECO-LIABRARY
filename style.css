@@ -5,7 +5,8 @@ body{
     font-family:  'Merriweather', serif;
     font-size: large;
     margin: auto;
-    width: 900px;
+}
+/* ==========================xxxxxxxxx======================== */
 
 
 
@@ -93,21 +94,29 @@ h2{
 }
 
 .buttonstarted{
-   padding-top: 1rem;
-   margin-bottom: 2rem;
-   border-radius: 1.5rem border;
-   width: 15rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-bottom: 1rem;
+   border-radius: 1rem;
+   width: 16rem;
    background-color:#fb7185;
-   border-bottom: auto;
    font-weight:bold ;
-   font-size: xx-large;
-  
+   font-size: xx-large; 
 
-   
 }
+
+/* 
+================xxxxx======================== */
+
 .get-started{
-    color: rgb(254, 254, 249)
+    color: rgb(0, 0, 0)
 }
+
+.get-started:hover{
+    color: rgb(135, 230, 116)
+}
+
+
+/* ==================xxxxxx========================= */
 .small-container{
    
     margin-bottom: 0.5rem;
@@ -130,32 +139,23 @@ h2{
 
 /* ***************responsive************ */
 
-@media only screen and (max-width: 768px)  {
-    /* For mobile phones: */
-    html{
-        font-size: 50%;
+@media (max-width: 900px) {
+    .navbar{
+        position: fixed;
+        top: 1px;
+        bottom: 1px;
+        left: 1px;
+        right: 1px;
+        height: 100vh;
+        width: 100%;
+        display: block;
+        text-align: center;
     }
-    .flex{
-        size: 0rem;
-        height: 10vh;
-        width: 100px;
-    }
-    #image{
-      max-width: 50px;
-       
 
+    .image{
+        position: fixed;
+        height: 10vh;
+        width: 10%;
+        top: 1px;
     }
-    .hero{
-        margin-top: 10rem;
-        margin-right: 15rem;
-        max-width: 250px;  
-    }
-   
-    .banner-heading{
-        margin-left: 25rem; 
-        
-        
-    }
-    .small-container{
-        max-width: 100px;
-    }}
+}
