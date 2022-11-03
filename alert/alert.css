@@ -8,6 +8,20 @@ body{
 }
 
 
+.input{
+    height: 5vh;
+    width: 27vh;
+    border-radius:  1rem;
+}
+
+.input:hover{
+    border-color: #fb7185;
+}
+.submit{
+    height: 4vh;
+  font-weight: bold;
+  border-radius: 0.5rem;
+}
     
  
 .nav-heading{
@@ -287,36 +301,5 @@ margin-top: 0%;
 
 /* ***************responsive************ */
 
-@media only screen and (max-width: 768px)  {
-    /* For mobile phones: */
-    html{
-        font-size: 50%;
-    }
-    #unorder{
- 
-        list-style: none;
-        position: relative;
-      
-      
-    
-      
-    }
-    .links-div{
-       margin: -5rem;
-       
 
-    }
-    .link-items{
-        font-size: larger;
-       
-    }
-    .content-div{
-        margin: 8rem;
-    }
-
-
-.information-div{
-    visibility: hidden;
-}
-}
    

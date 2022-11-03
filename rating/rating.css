@@ -7,7 +7,20 @@ body{
     text-align: center;
 }
 
+.input{
+    height: 5vh;
+    width: 27vh;
+    border-radius:  1rem;
+}
 
+.input:hover{
+    border-color: #fb7185;
+}
+.submit{
+    height: 4vh;
+  font-weight: bold;
+  border-radius: 0.5rem;
+}
 .nav-heading{
     font-size: 2rem;
     padding-inline: 2rem;
