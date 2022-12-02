@@ -248,20 +248,19 @@ h2{
         
         }
         .hero{
-            height: 350px;
-            margin-left: 1rem;
-            margin-bottom: 8rem;
+            max-width: 250px;
+            margin-left: -2rem;
+            margin-top: -5rem;
         }
+
         
-        .banner-heading{
-            margin-right: 1px;
-            padding-top: 30px;
-        }
         .head{
             position:absolute;
+            font-size: small;
              margin-top: 13rem;
-             margin-left: -30rem;
+             margin-left: -25.4rem;
              margin-bottom: 1rem;
+             padding-left: 1rem;
         }
         .flex{
             margin-right: 5rem;
@@ -269,21 +268,21 @@ h2{
             margin-right: 5vh;
         }
         .small-container{
-            margin-right: 15rem;
+            margin-left: -8rem;
+            font-size: larger;
         }
         .buttonstarted{
             font-size: small;
-            width: 30%;
-            margin-right: 10rem;
+            width: 40%;
+            margin-left: -8rem;
         }
     
         .yash{
             display: grid;
-            margin-left: -23rem;
+           margin: 10rem;
+            margin-left: -20rem;
             font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
             ;
         }
-    
-    
-    
-}
+  
+    }
