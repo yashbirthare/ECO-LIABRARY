@@ -230,7 +230,8 @@ h2{
         margin-left: 1.7rem;
         }
         .header{
-            height: 25vh;
+           margin-top: -2rem;
+            height: 20vh;
             font-size: xx-small;
         }
 
