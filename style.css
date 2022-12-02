@@ -171,39 +171,41 @@ h2{
 /* =======================xxxxxxxxxxxxxxx======================tablet */
 
 @media screen and (max-width:998px) {
-.html {
-    font-size: 50%;
-}
 
     body{
-    width: 50%;
-    margin-left: 1.7rem;
+    width: 300px;
+    margin-left: 0.4rem;
+    padding-bottom: 10rem;
     }
     .header{
-        height: 15vh;
+        margin-bottom: 2rem;
+        height: 10vh;
     }
      .form {
         width: auto;
-        margin-left: 6rem;
+  
      }
     .list-item {
-        margin-left: 7rem;
+        margin-left: 3rem;
     
     }
     .hero{
         height: 450px;
         margin-right: 50px;
+        padding-top: 4rem;
+
+        
     }
     
     .banner-heading{
-        margin-right: 1px;
+        /* margin-left: -5rem; */
         padding-top: 30px;
     }
     .head{
         margin-right: 1px;
     }
     .flex{
-        margin-right: 5rem;
+        /* margin-right: 5rem; */
         font-size: large;
         margin-right: 5vh;
     }
@@ -211,7 +213,8 @@ h2{
 
     .yash{
         display: grid;
-        margin-left: -4rem;
+        margin-left: -8rem;
+        
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
         ;
     }
@@ -228,11 +231,13 @@ h2{
         body{
         width: 50%;
         margin-left: 1.7rem;
+        
         }
         .header{
            margin-top: -2rem;
             height: 20vh;
             font-size: xx-small;
+    
         }
 
         .nav-heading {
@@ -245,8 +250,13 @@ h2{
         .list-item {
             display: grid;
             margin-left: -1.4rem;
-            
         
+        }
+
+        .header-taxt{
+            font-size: large;
+            
+     
         }
         .hero{
             max-width: 250px;
@@ -276,14 +286,35 @@ h2{
             font-size: small;
             width: 40%;
             margin-left: -8rem;
+        
+        }
+        .yash{
+            /* display: inline; */
+            width: 20%;
+            margin-top: 5rem;
+         position: fixed;
+         top: 10em;
+         left: 8rem;
+          
+            /* text-align: center; */
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+            
+        }
+        
+        .banner-heading{
+            font-size: 1rem;
+            padding-left: 5rem;
+            align-items: center; 
+        
         }
     
-        .yash{
-            display: grid;
-           margin: 10rem;
-            margin-left: -20rem;
-            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-            ;
-        }
   
     }
+
+
+
+
+    
+
+
+    
