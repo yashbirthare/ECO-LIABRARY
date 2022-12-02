@@ -5,7 +5,7 @@
 body{
     background-color: #eeff6af8;
     font-family:  'Merriweather', serif;
-    padding-top: 6rem;
+    padding-top: 3rem;
     font-size: large;
     margin: auto;
     width: 100%;
@@ -78,16 +78,19 @@ label{
 }
 .hero{
     padding-top: 1rem;
-    padding-left: 3rem;
+    padding-left: 1rem;
     max-width: 500px;
     display: black;
     margin: auto;
     text-align: center;
 }
 
-
+.flex {
+    margin-left: 0rem;
+}
 
 .banner-heading{
+    font-size: 1rem;
     padding-right: 5rem;
     padding-left: 5rem;
     align-items: center; 
@@ -165,18 +168,30 @@ h2{
 
 /* ***************responsive************ */
 
+/* =======================xxxxxxxxxxxxxxx======================tablet */
+
 @media screen and (max-width:998px) {
+.html {
+    font-size: 50%;
+}
 
     body{
     width: 50%;
-    margin-left: 2.4rem;
+    margin-left: 1.7rem;
     }
     .header{
         height: 15vh;
-       
+    }
+     .form {
+        width: auto;
+        margin-left: 6rem;
+     }
+    .list-item {
+        margin-left: 7rem;
+    
     }
     .hero{
-        height: 350px;
+        height: 450px;
         margin-right: 50px;
     }
     
@@ -192,15 +207,83 @@ h2{
         font-size: large;
         margin-right: 5vh;
     }
+    
 
     .yash{
-        display: flex;
-        width: 50%;
-        text-align: center;
+        display: grid;
+        margin-left: -4rem;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
         ;
     }
 
 
 }
+/* 
+=======================xxxxxxxxxxxxxxx======================phone */
+@media screen and (max-width:600px) {
+    .html {
+        font-size: 50%;
+    }
+    
+        body{
+        width: 50%;
+        margin-left: 1.7rem;
+        }
+        .header{
+            height: 25vh;
+            font-size: xx-small;
+        }
 
+        .nav-heading {
+            font-size: large;
+        }
+         .form {
+            margin-left: -9rem;
+            margin-top: 0.4rem;
+         }
+        .list-item {
+            display: grid;
+            margin-left: -1.4rem;
+            
+        
+        }
+        .hero{
+            height: 350px;
+            margin-left: 1rem;
+            margin-bottom: 8rem;
+        }
+        
+        .banner-heading{
+            margin-right: 1px;
+            padding-top: 30px;
+        }
+        .head{
+            position:absolute;
+             margin-top: 13rem;
+             margin-left: -30rem;
+             margin-bottom: 1rem;
+        }
+        .flex{
+            margin-right: 5rem;
+            font-size: large;
+            margin-right: 5vh;
+        }
+        .small-container{
+            margin-right: 15rem;
+        }
+        .buttonstarted{
+            font-size: small;
+            width: 30%;
+            margin-right: 10rem;
+        }
+    
+        .yash{
+            display: grid;
+            margin-left: -23rem;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+            ;
+        }
+    
+    
+    
+}
