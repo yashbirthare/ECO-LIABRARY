@@ -241,6 +241,7 @@ h2{
         }
 
         .nav-heading {
+            display: grid;
             font-size: large;
         }
          .form {
@@ -252,6 +253,7 @@ h2{
             margin-left: -1.4rem;
         
         }
+        
 
         .header-taxt{
             font-size: large;
