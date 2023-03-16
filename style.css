@@ -151,13 +151,14 @@ marquee{
 
 .list-item-inline{
     margin: 15px;
-    font-size: 31px;
     font-family:'Times New Roman', Times, serif;
     
 
 }
 
-.link-f{
-    text-decoration: none;
+/* ========================================================== */
+
+.git{
+    height: 60px;
     
 }
