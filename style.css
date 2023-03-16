@@ -140,10 +140,24 @@ marquee{
     margin: 0 0 50px 0;
 }
 .fotter-main{
-    margin: 80px 20px 30px 0;
+    margin: 50px 20px 30px 0;
 }
 
 /* ======================================================================= */
 .social-media {
+    display: flex;
     list-style: none;
+}
+
+.list-item-inline{
+    margin: 15px;
+    font-size: 31px;
+    font-family:'Times New Roman', Times, serif;
+    
+
+}
+
+.link-f{
+    text-decoration: none;
+    
 }
