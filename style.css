@@ -176,7 +176,9 @@ marquee{
 /* ==============responsive==================== */
 
 @media only screen and (max-width: 600px){
+
    
+/* ============================= */
     
     .nav-heading{
         font-size: 20px; 
@@ -219,20 +221,52 @@ marquee{
 }
 
 .small-container{
-
     margin: 0 ;
     font-size: 18px;
     
 }
 
-.Careate{
-    margin:  0 10px 0 0;
+.head{
+    width: 70%;
+    font-size: 13px;
+    text-align: justify;
+  padding: 0 ;
 }
 
-.head{
-    font-size: 23px;
-    text-align: justify;
-    padding: 0 20px 20px 20px ;
+/* ================================================ */
+.button-main-area{
+    display: grid;
+}
+.buttonstarted{
+   font-size: 20px; 
+   width: 180px;
+}
+.get-2{
+    width: 130px;
+}
+/* ====================================================== */
+.fotter-main{
+    margin: 50px 0 0 0;
+}
+
+/* ==================================================== */
+.social-media {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.list-item-inline{
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    
+
+}
+
+/* ========================================================== */
+
+.git{
+    height: 50px;   
 }
 }
 
