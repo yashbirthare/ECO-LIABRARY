@@ -186,7 +186,7 @@ marquee{
     }
 /* ====================================== */
 .form{
-    margin: 0;
+    display: flex;
 }
 
 .search {
