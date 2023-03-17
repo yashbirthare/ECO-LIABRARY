@@ -8,7 +8,6 @@
 body{
     background-color: #CCFF00;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    overflow: hidden;  
 }
 /* ==========================xxxxxxxxx======================== */
 
@@ -207,7 +206,33 @@ marquee{
 /* ======================================== */
 marquee{
     font-size: 15px;
-    margin: 0 0 50px 0;
+    margin: 20px 0 30px 0;
+}
+/* ============================================== */
+.flex{
+    display: grid;
+}
+.hero-main{
+    width: 390px;
+    margin: 0;
+    
+}
+
+.small-container{
+
+    margin: 0 ;
+    font-size: 18px;
+    
+}
+
+.Careate{
+    margin:  0 10px 0 0;
+}
+
+.head{
+    font-size: 23px;
+    text-align: justify;
+    padding: 0 20px 20px 20px ;
 }
 }
 
