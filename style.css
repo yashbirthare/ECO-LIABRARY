@@ -178,37 +178,38 @@ marquee{
     
     .nav-heading{
         font-size: 20px; 
-        margin: 0 15px 0 0;
+        margin: 5px 15px 0 0;
     }
 /* ====================================== */
 .form{
     display: flex;
 }
 
-.search {
-    font-size: 13px;
-}
-
 .input{
-    width: 70px;
+    width: 90px;
 }
 
 .submit{
   padding: 2px 3px;
 }
-/* ======================================== */
+/* ====================================== */
+  
+
 .list{
-    font-size: 15px;
+    display: flex;
+    font-size: 13px;
 }
 
-/* ======================================== */
-marquee{
+ /* ======================================== * */
+.marquee-2nd{
     font-size: 15px;
-    margin: 0;
+    margin: 10px 0 20px 0  ;
 }
-/* ============================================== */
+
+ /* ==============================================  */
 .flex{
     display: grid;
+    
 }
 .hero-main{
     width: 100%;
@@ -248,14 +249,15 @@ marquee{
 }
 /* ====================================================== */
 .fotter-main{
-    margin: 0;
+    margin: 0 13px 0 0;
 }
 
 /* ==================================================== */
 .social-media {
     display: flex;
     justify-content:flex-end;
-    margin-left: auto;
+    margin: 0;
+  
 }
 
 .list-item-inline{
@@ -268,7 +270,10 @@ marquee{
 /* ========================================================== */
 
 .git{
-    height: 50px;   
+    height: 30px;   
+}
+.git-3 {
+    height: 30px;
 }
 }
 
