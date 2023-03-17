@@ -149,6 +149,7 @@ marquee{
     display: flex;
     justify-content: end;
     list-style: none;
+    margin: 0;
     padding: 0 10px 0 0;
 
 }
@@ -249,21 +250,20 @@ marquee{
 }
 /* ====================================================== */
 .fotter-main{
-    margin: 0 13px 0 0;
+    margin: 0 15px 0 0;
 }
 
 /* ==================================================== */
 .social-media {
     display: flex;
     justify-content:flex-end;
-    margin: 0;
+    /* margin: 0; */
   
 }
 
 .list-item-inline{
     margin: 0;
     font-family:'Times New Roman', Times, serif;
-    
 
 }
 
