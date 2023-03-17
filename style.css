@@ -2,19 +2,18 @@
 
 :root {
     --primary-color: #330033;
-    --secondary-color:
 }
 
 body{
     background-color: #CCFF00;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    overflow: hidden;
 }
 /* ==========================xxxxxxxxx======================== */
 
 #Main-Nav{
   margin: 0;  
 }
-
 
 .header{
     display: flex;
@@ -23,14 +22,14 @@ body{
 .nav-heading{
     font-size: 45px;
     color:var(--primary-color);
-    margin: 0 80px 0 0; 
+    margin: 0; 
     
 }
 /* 
 ============================================================ */
 
 .form{
-    margin: auto;
+    margin: auto ;
 }
 
 
@@ -61,6 +60,7 @@ body{
     font-size: 25px;
     font-family: 'Merriweather', serif;
     display: inline;
+    padding: 0 10px 0 0 ;
 }
 
 .nav-links{
@@ -92,12 +92,11 @@ body{
 }
 
 .head{
+    width: 89%;
     font-size: 18px;
     text-align: justify;
 
 }
-
-
 /* ===================================================== */
 .button-main-area{
     display: flex;
@@ -149,7 +148,7 @@ marquee{
 .social-media {
     display: flex;
     list-style: none;
-    margin: 0 0 0 530px;
+    margin: 0 0 0 730px;
 }
 
 .list-item-inline{
