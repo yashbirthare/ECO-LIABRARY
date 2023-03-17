@@ -174,3 +174,40 @@ marquee{
 
 
 /* ==============responsive==================== */
+
+@media only screen and (max-width: 600px){
+   
+    
+    .nav-heading{
+        font-size: 20px; 
+        margin: 0 15px 0 0;
+    }
+/* ====================================== */
+.form{
+    margin: 0;
+}
+
+.search {
+    font-size: 13px;
+}
+
+.input{
+    width: 70px;
+}
+
+.submit{
+  padding: 2px 3px;
+}
+/* ======================================== */
+.list{
+    font-size: 15px;
+}
+
+/* ======================================== */
+marquee{
+    font-size: 15px;
+    margin: 0 0 50px 0;
+}
+}
+
+
