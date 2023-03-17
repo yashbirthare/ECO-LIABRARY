@@ -146,9 +146,11 @@ marquee{
 
 /* ======================================================================= */
 .social-media {
-    display: flex;
+    display: flex;/
+    justify-content: end;
     list-style: none;
-    margin: 0 0 0 530px;
+    /* margin: 0 0 0 530px; */
+
 }
 
 .list-item-inline{
