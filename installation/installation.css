@@ -1,136 +1,88 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Oswald:wght@300&display=swap');
 
 body{
-    background-color: #eeff6af8;
-    font-family:  'Merriweather', serif;
-    font-size: large;
-    text-align: center;
-}
+    background-color: #CCFF00;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
 
+/* ================================================== */
+#Main-Nav{
+    margin: 0;  
+  }
+  
+  .header{
+      display: flex;
+  }
+  
+  .nav-heading{
+      font-size: 45px;
+      color:var(--primary-color);
+      margin: 0; 
+      
+  }
+
+/* ========================================================== */.form{
+    margin: auto ;
+}
 .input{
-    height: 5vh;
-    width: 27vh;
-    border-radius:  1rem;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 0 3px 0 0;
+
 }
 
 .input:hover{
     border-color: #fb7185;
 }
+
+
 .submit{
-    height: 4vh;
+  padding: 2px 7px;
   font-weight: bold;
-  border-radius: 0.5rem;
+  border-radius: 5px;
+  color: black;
+  background-color: rgb(181, 222, 173);
 }
-.nav-heading{
-    font-size: 2rem;
-    padding-inline: 2rem;
-    color: grey;
-    margin-right: 2rem;
-    margin-top: 0px;
-    
-}
-    .header{
- 
+/* ============================================================== */
 
-        display: flex;
-       
-    }
-    
-
-    h1 {
-        color:   rgb(89, 84, 124);
-    }
-    h2{
-        color:  rgb(89, 84, 124);
-    
-    }
-    h3{
-        color:  black;
-    
-    }
-    p{
-        font-size: medium;
-    }
-    
-    
-
-
-
-
-
-.list-item{
-    margin-left: auto;
-}
-label{
-    font-size: x-large;
-    color: gray;
-
-}
 .list{
-    margin: 1rem;
-    font-size: xx-large;
-    list-style: none;
+    font-size: 25px;
+    font-family: 'Merriweather', serif;
     display: inline;
-   
- 
-    
+    padding: 0 10px 0 0 ;
 }
+
 .nav-links{
-    color: gray;
-
-    
+    color: var(--primary-color);
     text-decoration: none;
-    margin-bottom: 2rem;
 } 
-.form{
-    margin-top: 1rem;
-    margin-left: 5rem;
-}
 
-
-
-
-
-
-
-
-/* ********************LEFT FEILD ******** */
-
-
-
-
-
+/* ============================================================= */
 .main-div{
-    margin: 1rem;
     display: grid;
-    grid-template-columns: 0.3fr 1fr 0.3fr;
-    column-gap: 5rem ;
-   
+    grid-template-columns: 1fr 2fr 1fr ;
 }
+
+
+    #unorder{
+        list-style: none;
+        position: fixed;
+    }
+    
+
+/* ====================================================== */
+
 
 .link-items{
-    font-size: 1rem;
-    margin-bottom: auto;
-    padding-bottom:  4rem;
+    font-size: 15px;
+    font-weight: bolder;
     text-decoration: none;
     color: black;
 
     
 }
-#unorder{
-   
- 
-    list-style: none;
-    position: fixed;
-    top: 2.5rem;
-  
-}
 
-.links-div{
-  
-margin-top: 0%;
 
-}
+
 .content-div{
     margin: auto;
     padding: 2rem;
@@ -202,40 +154,4 @@ margin-top: 0%;
 
 /* ***************responsive************ */
 
-@media only screen and (max-width: 768px)  {
-    /* For mobile phones: */
-    html{
-        font-size: 50%;
-    }
-    #unorder{
  
-        list-style: none;
-        position: relative;
-        ;
- 
-      
-        /* top: 4rem; */
-      
-    }
-    .link-items{
-        font-size: larger;
-    }
-
-
-
-
-    .links-div{
-        margin: -5rem;
-        
- 
-     }
-
-
-.information-div{
-    visibility: hidden;
-}
-.content-div{
-    margin: 8rem;
-}
-
-}
